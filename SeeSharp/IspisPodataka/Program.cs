@@ -11,7 +11,7 @@ namespace IspisPodataka
             int br1 = 16, br2 = 28;
             int zbroj = br1 + br2;
 
-            //1) kao u c++ (+ umjesto <<)
+            //1) kao u c++ (+ umjesto << kod cout-a)
             //najlošije radi nepreglednosti, praktično ako samo treba nadodati nešto samo na početak ili kraj
             string ispis1 = "Zbroj brojeva " + br1 + " i " + br2 + " iznosi " + zbroj + ".";
 
