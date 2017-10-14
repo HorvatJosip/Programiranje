@@ -16,4 +16,5 @@ lakše je umjesto polja (konstantne veličine) koristiti listu jer ne treba razm
 
 * SeeSharp
   * Uvod u C# (IspisPodataka, Petlje, UnosPodataka)
-  * Rješenja primjera ispitnih pitanja (Zadatak1_Ishod1)
+  * Rješenja primjera ispitnih pitanja (Zadatak1_Ishod1, Zadatak2_Ishodi234)
+  * Vježbe (Algoritmi, Vjezbe_3_4)
