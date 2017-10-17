@@ -53,7 +53,7 @@ namespace Zadatak3_Ishodi56
                                     if(DateTime.TryParse(contents[3], out DateTime taskStartTime))
                                     {
                                         //zadnje što moramo provjeriti je da je u budućnosti jer samo njih pratimo
-                                        if ((taskStartTime - DateTime.Now).TotalSeconds > 0)
+                                        if (Utilities.DateTimeInFuture(taskStartTime))
                                         {
                                             _tasks.Add(new Task(id, name, taskStartTime, taskCategory));
                                         }
